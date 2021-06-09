@@ -1,0 +1,66 @@
+:root{
+    --vp-width: 100vw;
+    --mx-width: 100%;
+    --vp-height:100vh;
+    --first-color:#fff;
+    --second-color: #273C48;
+    --contact-bgcolor: #4285F4;
+    --icon-margin: 1rem;
+}
+/* Menu */
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: var(--first-color);
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+}
+nav ul a:hover{
+    color: #273c48;
+    background-color: var(--first-color) ;
+    border-radius: .5rem;
+}
+nav ul li a i{
+    margin-right: var(--icon-margin);
+}
+/* Contact */
+.contact{
+    display: flex;
+    padding: 5rem;
+}
+/* Contact-left */
+.contact-left{
+    /* display: flex; */
+    width: 25vw;
+}
+.contact-left .social span{
+    display: flex;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+.social a{
+    color: var(--first-color);
+    text-decoration: none;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+.social a:hover{
+    color: var(--contact-bgcolor);
+    background-color: var(--first-color);
+    font-weight: bold;
+}
+.social a i{
+    margin-right: var(--icon-margin);
+}

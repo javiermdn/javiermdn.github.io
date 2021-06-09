@@ -1,0 +1,77 @@
+:root{
+    --vp-width: 100vw;
+    --mx-width: 100%;
+    --vp-height:100vh;
+    --first-color:#fff;
+    --second-color: #273C48;
+    --contact-bgcolor: #4285F4;
+    --icon-margin: 1rem;
+}
+/* Header */
+/* Main */
+.credits{
+    margin-top: 40vh;
+}
+/* About Me*/
+.about-me{
+    flex-direction: row;
+}
+.about-me figure{
+    width: 40vw;
+}
+.about-me .description{
+    width: 60vw;
+}
+/* Skills */
+.skills{
+    height: var(--vp-height);
+    justify-content: space-around;
+}
+.skills-container{
+   flex-direction: row; 
+}
+.skill{
+    width: var(--mx-width);
+    margin: 1rem .5rem;
+}
+/* Contact */
+.contact{
+    max-width: var(--mx-width);
+    display: flex;
+    margin: 1rem;
+}
+/* Contact-left */
+.contact-left{
+    background-color: #4285F4;
+    width: 20vw;
+    border-radius: 1rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--first-color);
+}
+.contact-left h2{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.contact-left .social span{
+    display: none;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+.social a{
+    color: var(--first-color);
+    text-decoration: none;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+.social a:hover{
+    color: var(--contact-bgcolor);
+    background-color: var(--first-color);
+}
